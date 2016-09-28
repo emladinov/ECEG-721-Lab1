@@ -8,13 +8,13 @@
 #define Pin_LED__0__DR_INV CYREG_GPIO_PRT3_DR_INV
 #define Pin_LED__0__DR_SET CYREG_GPIO_PRT3_DR_SET
 #define Pin_LED__0__HSIOM CYREG_HSIOM_PORT_SEL3
-#define Pin_LED__0__HSIOM_MASK 0xF0000000u
-#define Pin_LED__0__HSIOM_SHIFT 28u
+#define Pin_LED__0__HSIOM_MASK 0x0F000000u
+#define Pin_LED__0__HSIOM_SHIFT 24u
 #define Pin_LED__0__INTCFG CYREG_GPIO_PRT3_INTR_CFG
 #define Pin_LED__0__INTR CYREG_GPIO_PRT3_INTR
 #define Pin_LED__0__INTR_CFG CYREG_GPIO_PRT3_INTR_CFG
 #define Pin_LED__0__INTSTAT CYREG_GPIO_PRT3_INTR
-#define Pin_LED__0__MASK 0x80u
+#define Pin_LED__0__MASK 0x40u
 #define Pin_LED__0__PA__CFG0 CYREG_UDB_PA3_CFG0
 #define Pin_LED__0__PA__CFG1 CYREG_UDB_PA3_CFG1
 #define Pin_LED__0__PA__CFG10 CYREG_UDB_PA3_CFG10
@@ -34,7 +34,7 @@
 #define Pin_LED__0__PC2 CYREG_GPIO_PRT3_PC2
 #define Pin_LED__0__PORT 3u
 #define Pin_LED__0__PS CYREG_GPIO_PRT3_PS
-#define Pin_LED__0__SHIFT 7
+#define Pin_LED__0__SHIFT 6
 #define Pin_LED__DR CYREG_GPIO_PRT3_DR
 #define Pin_LED__DR_CLR CYREG_GPIO_PRT3_DR_CLR
 #define Pin_LED__DR_INV CYREG_GPIO_PRT3_DR_INV
@@ -43,7 +43,7 @@
 #define Pin_LED__INTR CYREG_GPIO_PRT3_INTR
 #define Pin_LED__INTR_CFG CYREG_GPIO_PRT3_INTR_CFG
 #define Pin_LED__INTSTAT CYREG_GPIO_PRT3_INTR
-#define Pin_LED__MASK 0x80u
+#define Pin_LED__MASK 0x40u
 #define Pin_LED__PA__CFG0 CYREG_UDB_PA3_CFG0
 #define Pin_LED__PA__CFG1 CYREG_UDB_PA3_CFG1
 #define Pin_LED__PA__CFG10 CYREG_UDB_PA3_CFG10
@@ -63,7 +63,7 @@
 #define Pin_LED__PC2 CYREG_GPIO_PRT3_PC2
 #define Pin_LED__PORT 3u
 #define Pin_LED__PS CYREG_GPIO_PRT3_PS
-#define Pin_LED__SHIFT 7
+#define Pin_LED__SHIFT 6
 
 /* Miscellaneous */
 #define CY_VERSION "PSoC Creator  3.1 SP3"

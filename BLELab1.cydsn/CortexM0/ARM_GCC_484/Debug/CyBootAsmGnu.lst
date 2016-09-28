@@ -3470,13 +3470,13 @@ ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
    8              	.set Pin_LED__0__DR_INV, CYREG_GPIO_PRT3_DR_INV
    9              	.set Pin_LED__0__DR_SET, CYREG_GPIO_PRT3_DR_SET
   10              	.set Pin_LED__0__HSIOM, CYREG_HSIOM_PORT_SEL3
-  11              	.set Pin_LED__0__HSIOM_MASK, 0xF0000000
-  12              	.set Pin_LED__0__HSIOM_SHIFT, 28
+  11              	.set Pin_LED__0__HSIOM_MASK, 0x0F000000
+  12              	.set Pin_LED__0__HSIOM_SHIFT, 24
   13              	.set Pin_LED__0__INTCFG, CYREG_GPIO_PRT3_INTR_CFG
   14              	.set Pin_LED__0__INTR, CYREG_GPIO_PRT3_INTR
   15              	.set Pin_LED__0__INTR_CFG, CYREG_GPIO_PRT3_INTR_CFG
   16              	.set Pin_LED__0__INTSTAT, CYREG_GPIO_PRT3_INTR
-  17              	.set Pin_LED__0__MASK, 0x80
+  17              	.set Pin_LED__0__MASK, 0x40
   18              	.set Pin_LED__0__PA__CFG0, CYREG_UDB_PA3_CFG0
 ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 59
 
@@ -3499,7 +3499,7 @@ ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
   34              	.set Pin_LED__0__PC2, CYREG_GPIO_PRT3_PC2
   35              	.set Pin_LED__0__PORT, 3
   36              	.set Pin_LED__0__PS, CYREG_GPIO_PRT3_PS
-  37              	.set Pin_LED__0__SHIFT, 7
+  37              	.set Pin_LED__0__SHIFT, 6
   38              	.set Pin_LED__DR, CYREG_GPIO_PRT3_DR
   39              	.set Pin_LED__DR_CLR, CYREG_GPIO_PRT3_DR_CLR
   40              	.set Pin_LED__DR_INV, CYREG_GPIO_PRT3_DR_INV
@@ -3508,7 +3508,7 @@ ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
   43              	.set Pin_LED__INTR, CYREG_GPIO_PRT3_INTR
   44              	.set Pin_LED__INTR_CFG, CYREG_GPIO_PRT3_INTR_CFG
   45              	.set Pin_LED__INTSTAT, CYREG_GPIO_PRT3_INTR
-  46              	.set Pin_LED__MASK, 0x80
+  46              	.set Pin_LED__MASK, 0x40
   47              	.set Pin_LED__PA__CFG0, CYREG_UDB_PA3_CFG0
   48              	.set Pin_LED__PA__CFG1, CYREG_UDB_PA3_CFG1
   49              	.set Pin_LED__PA__CFG10, CYREG_UDB_PA3_CFG10
@@ -3528,7 +3528,7 @@ ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
   63              	.set Pin_LED__PC2, CYREG_GPIO_PRT3_PC2
   64              	.set Pin_LED__PORT, 3
   65              	.set Pin_LED__PS, CYREG_GPIO_PRT3_PS
-  66              	.set Pin_LED__SHIFT, 7
+  66              	.set Pin_LED__SHIFT, 6
   67              	
   68              	/* Miscellaneous */
   69              	.set CYDEV_BCLK__HFCLK__HZ, 48000000

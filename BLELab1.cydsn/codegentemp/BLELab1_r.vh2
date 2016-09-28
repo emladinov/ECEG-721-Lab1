@@ -1,5 +1,5 @@
 -- Project:   BLELab1
--- Generated: 09/28/2016 19:09:51
+-- Generated: 09/28/2016 19:16:13
 -- PSoC Creator  3.1 SP3
 
 ENTITY BLELab1 IS
@@ -41,7 +41,7 @@ ARCHITECTURE __DEFAULT__ OF BLELab1 IS
     ATTRIBUTE Location OF ClockBlock : LABEL IS "F(Clock,0)";
     ATTRIBUTE Location OF ClockGenBlock : LABEL IS "F(CLK_GEN,0)";
     ATTRIBUTE lib_model OF Pin_LED(0) : LABEL IS "iocell1";
-    ATTRIBUTE Location OF Pin_LED(0) : LABEL IS "P3[7]";
+    ATTRIBUTE Location OF Pin_LED(0) : LABEL IS "P3[6]";
     COMPONENT iocell
         PORT (
             pin_input : IN std_ulogic;
