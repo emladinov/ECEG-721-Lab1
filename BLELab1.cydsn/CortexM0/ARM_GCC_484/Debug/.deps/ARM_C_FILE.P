@@ -1,14 +1,20 @@
-C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/CortexM0/ARM_GCC_484/Debug/Cm0Start.o : C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/Cm0Start.c 
+C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/CortexM0/ARM_GCC_484/Debug/Clock_1.o : C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/Clock_1.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/Clock_1.c 
 
-C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/CyLib.h : 
+C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/Clock_1.h : 
 
 C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cydevice_trm.h : 
 
 C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cyfitter.h : 
 
-C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h : 
-
 C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cytypes.h : 
+
+C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/Clock_1.c : 
+
+C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/CortexM0/ARM_GCC_484/Debug/Cm0Start.o : C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/Cm0Start.c 
+
+C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/CyLib.h : 
+
+C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h : 
 
 C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/Cm0Start.c : 
 
@@ -22,31 +28,25 @@ C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/CortexM0/ARM_GCC_484
 
 C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/CyLib.c : 
 
-C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/CortexM0/ARM_GCC_484/Debug/Pin_Blue.o : C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/Pin_Blue.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/Pin_Blue_aliases.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/Pin_Blue.c 
+C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/CortexM0/ARM_GCC_484/Debug/PWM_1.o : C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/PWM_1.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/PWM_1.c 
 
-C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/Pin_Blue.h : 
+C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/PWM_1.h : 
 
-C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/Pin_Blue_aliases.h : 
+C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/PWM_1.c : 
+
+C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/CortexM0/ARM_GCC_484/Debug/PWM_1_PM.o : C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/PWM_1.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/PWM_1_PM.c 
+
+C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/PWM_1_PM.c : 
+
+C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/CortexM0/ARM_GCC_484/Debug/Pin_LED.o : C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/Pin_LED.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/Pin_LED_aliases.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/Pin_LED.c 
+
+C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/Pin_LED.h : 
+
+C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/Pin_LED_aliases.h : 
 
 C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cypins.h : 
 
-C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/Pin_Blue.c : 
-
-C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/CortexM0/ARM_GCC_484/Debug/Pin_Green.o : C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/Pin_Green.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/Pin_Green_aliases.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/Pin_Green.c 
-
-C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/Pin_Green.h : 
-
-C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/Pin_Green_aliases.h : 
-
-C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/Pin_Green.c : 
-
-C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/CortexM0/ARM_GCC_484/Debug/Pin_Red.o : C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/Pin_Red.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/Pin_Red_aliases.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/Pin_Red.c 
-
-C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/Pin_Red.h : 
-
-C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/Pin_Red_aliases.h : 
-
-C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/Pin_Red.c : 
+C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/Pin_LED.c : 
 
 C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/CortexM0/ARM_GCC_484/Debug/cyPm.o : C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cyPm.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Evan/Documents/PSoC\ Creator/BLELab1/BLELab1.cydsn/Generated_Source/PSoC4/cyPm.c 
 

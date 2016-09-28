@@ -13,10 +13,7 @@
 
 int main()
 {
-    Pin_Red_Write(0);
-    Pin_Green_Write(0);
-    Pin_Blue_Write(0);
-    
+    PWM_1_Start();
     /* CyGlobalIntEnable; */ /* Uncomment this line to enable global interrupts. */
     for(;;)
     {

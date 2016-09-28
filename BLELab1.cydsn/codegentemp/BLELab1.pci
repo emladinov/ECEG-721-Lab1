@@ -1,5 +1,5 @@
 # BLELab1
-# 2016-09-28 23:19:51Z
+# 2016-09-28 23:26:00Z
 
 # IO_6@[IOP=(0)][IoId=(6)] is reserved: SWDDebugEnabled
 dont_use_io iocell 0 6
@@ -10,6 +10,4 @@ dont_use_io iocell 6 0
 # IO_1@[IOP=(6)][IoId=(1)] is reserved: KhzXtalEnabled
 dont_use_io iocell 6 1
 set_location "ClockGenBlock" m0s8clockgenblockcell -1 -1 0
-set_io "Pin_Blue(0)" iocell 3 7
-set_io "Pin_Green(0)" iocell 3 6
-set_io "Pin_Red(0)" iocell 2 6
+set_io "Pin_LED(0)" iocell 3 7

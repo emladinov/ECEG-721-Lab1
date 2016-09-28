@@ -18,12 +18,10 @@
 #include <cydevice_trm.h>
 #include <cyfitter.h>
 #include <cydisabledsheets.h>
-#include <Pin_Blue.h>
-#include <Pin_Blue_aliases.h>
-#include <Pin_Green.h>
-#include <Pin_Green_aliases.h>
-#include <Pin_Red.h>
-#include <Pin_Red_aliases.h>
+#include <Clock_1.h>
+#include <PWM_1.h>
+#include <Pin_LED.h>
+#include <Pin_LED_aliases.h>
 #include <core_cm0_psoc4.h>
 #include <core_cm0.h>
 #include <CyFlash.h>
