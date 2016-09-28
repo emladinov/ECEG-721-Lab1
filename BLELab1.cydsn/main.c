@@ -12,11 +12,14 @@
 #include <project.h>
 
 int main()
-{   
+{
+    Pin_Red_Write(0);
+    Pin_Green_Write(0);
+    Pin_Blue_Write(0);
+    
     /* CyGlobalIntEnable; */ /* Uncomment this line to enable global interrupts. */
     for(;;)
     {
-        Pin_LED_Write(~Pin_LED_Read());
         CyDelay(1000);
     }
 }

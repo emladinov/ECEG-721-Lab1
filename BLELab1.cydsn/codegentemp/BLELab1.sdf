@@ -1,6 +1,6 @@
 (DELAYFILE
  (SDFVERSION "IEEE 1497 4.0")
- (DATE "2016-09-28T23:16:15Z")
+ (DATE "2016-09-28T23:19:53Z")
  (DESIGN "BLELab1")
  (VENDOR "Cypress Semiconductor")
  (PROGRAM "PSoC Creator")
@@ -12,7 +12,9 @@
   (INSTANCE *)
   (DELAY
    (ABSOLUTE
-    (INTERCONNECT Pin_LED\(0\)_PAD Pin_LED\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT Pin_Blue\(0\)_PAD Pin_Blue\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT Pin_Green\(0\)_PAD Pin_Green\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT Pin_Red\(0\)_PAD Pin_Red\(0\).pad_in (0.000:0.000:0.000))
    )
   )
  )

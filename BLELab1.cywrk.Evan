@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="BLELab1\BLELab1\Generated_Source\PSoC4\cydevice_trm.h">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="BLELab1\BLELab1\Generated_Source\PSoC4\cy_boot\cypins.h">
 <ExpandedNodeIds>
 <v>BLELab1</v>
 <v>BLELab1\BLELab1</v>
@@ -45,10 +45,18 @@
 <v>BLELab1\BLELab1\Generated_Source\PSoC4\cy_boot\cyPm.h</v>
 <v>BLELab1\BLELab1\Generated_Source\PSoC4\cy_boot\cytypes.h</v>
 <v>BLELab1\BLELab1\Generated_Source\PSoC4\cy_boot\cyutils.c</v>
-<v>BLELab1\BLELab1\Generated_Source\PSoC4\Pin_LED</v>
-<v>BLELab1\BLELab1\Generated_Source\PSoC4\Pin_LED\Pin_LED.c</v>
-<v>BLELab1\BLELab1\Generated_Source\PSoC4\Pin_LED\Pin_LED.h</v>
-<v>BLELab1\BLELab1\Generated_Source\PSoC4\Pin_LED\Pin_LED_aliases.h</v>
+<v>BLELab1\BLELab1\Generated_Source\PSoC4\Pin_Blue</v>
+<v>BLELab1\BLELab1\Generated_Source\PSoC4\Pin_Blue\Pin_Blue.c</v>
+<v>BLELab1\BLELab1\Generated_Source\PSoC4\Pin_Blue\Pin_Blue.h</v>
+<v>BLELab1\BLELab1\Generated_Source\PSoC4\Pin_Blue\Pin_Blue_aliases.h</v>
+<v>BLELab1\BLELab1\Generated_Source\PSoC4\Pin_Green</v>
+<v>BLELab1\BLELab1\Generated_Source\PSoC4\Pin_Green\Pin_Green.c</v>
+<v>BLELab1\BLELab1\Generated_Source\PSoC4\Pin_Green\Pin_Green.h</v>
+<v>BLELab1\BLELab1\Generated_Source\PSoC4\Pin_Green\Pin_Green_aliases.h</v>
+<v>BLELab1\BLELab1\Generated_Source\PSoC4\Pin_Red</v>
+<v>BLELab1\BLELab1\Generated_Source\PSoC4\Pin_Red\Pin_Red.c</v>
+<v>BLELab1\BLELab1\Generated_Source\PSoC4\Pin_Red\Pin_Red.h</v>
+<v>BLELab1\BLELab1\Generated_Source\PSoC4\Pin_Red\Pin_Red_aliases.h</v>
 <v>BLELab1\BLELab1\Generated_Source\PSoC4\cydevice_trm.h</v>
 <v>BLELab1\BLELab1\Generated_Source\PSoC4\cydevicegnu_trm.inc</v>
 <v>BLELab1\BLELab1\Generated_Source\PSoC4\cydeviceiar_trm.inc</v>
@@ -85,17 +93,16 @@
 <v>BLELab1\BLELab1\Generated_Source\PSoC4\cy_boot\cyPm.h</v>
 <v>BLELab1\BLELab1\Generated_Source\PSoC4\cy_boot\cytypes.h</v>
 <v>BLELab1\BLELab1\Generated_Source\PSoC4\cy_boot\cyutils.c</v>
-<v>BLELab1\BLELab1\Generated_Source\PSoC4\Pin_LED</v>
-<v>BLELab1\BLELab1\Generated_Source\PSoC4\Pin_LED\Pin_LED.c</v>
-<v>BLELab1\BLELab1\Generated_Source\PSoC4\Pin_LED\Pin_LED.h</v>
-<v>BLELab1\BLELab1\Generated_Source\PSoC4\Pin_LED\Pin_LED_aliases.h</v>
-<v>BLELab1\BLELab1\Generated_Source\PSoC4\cydevice_trm.h</v>
-<v>BLELab1\BLELab1\Generated_Source\PSoC4\cydevicegnu_trm.inc</v>
-<v>BLELab1\BLELab1\Generated_Source\PSoC4\cydeviceiar_trm.inc</v>
-<v>BLELab1\BLELab1\Generated_Source\PSoC4\cydevicerv_trm.inc</v>
-<v>BLELab1\BLELab1\Generated_Source\PSoC4\cydisabledsheets.h</v>
-<v>BLELab1\BLELab1\Generated_Source\PSoC4\cyfitter.h</v>
-<v>BLELab1\BLELab1\Generated_Source\PSoC4\cyfitter_cfg.c</v>
+<v>BLELab1\BLELab1\Generated_Source\PSoC4\Pin_Blue</v>
+<v>BLELab1\BLELab1\Generated_Source\PSoC4\Pin_Blue\Pin_Blue.c</v>
+<v>BLELab1\BLELab1\Generated_Source\PSoC4\Pin_Blue\Pin_Blue.h</v>
+<v>BLELab1\BLELab1\Generated_Source\PSoC4\Pin_Blue\Pin_Blue_aliases.h</v>
+<v>BLELab1\BLELab1\Generated_Source\PSoC4\Pin_Green</v>
+<v>BLELab1\BLELab1\Generated_Source\PSoC4\Pin_Green\Pin_Green.c</v>
+<v>BLELab1\BLELab1\Generated_Source\PSoC4\Pin_Green\Pin_Green.h</v>
+<v>BLELab1\BLELab1\Generated_Source\PSoC4\Pin_Green\Pin_Green_aliases.h</v>
+<v>BLELab1\BLELab1\Generated_Source\PSoC4\Pin_Red</v>
+<v>BLELab1\BLELab1\Generated_Source\PSoC4\Pin_Red\Pin_Red.c</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -131,7 +138,9 @@
 <v>BLELab1\BLELab1\CortexM0\ARM_GCC_484\Debug\Listing Files\cyPm.lst</v>
 <v>BLELab1\BLELab1\CortexM0\ARM_GCC_484\Debug\Listing Files\cyutils.lst</v>
 <v>BLELab1\BLELab1\CortexM0\ARM_GCC_484\Debug\Listing Files\main.lst</v>
-<v>BLELab1\BLELab1\CortexM0\ARM_GCC_484\Debug\Listing Files\Pin_LED.lst</v>
+<v>BLELab1\BLELab1\CortexM0\ARM_GCC_484\Debug\Listing Files\Pin_Blue.lst</v>
+<v>BLELab1\BLELab1\CortexM0\ARM_GCC_484\Debug\Listing Files\Pin_Green.lst</v>
+<v>BLELab1\BLELab1\CortexM0\ARM_GCC_484\Debug\Listing Files\Pin_Red.lst</v>
 <v>BLELab1\BLELab1\CortexM0\ARM_GCC_484\Debug\BLELab1.elf</v>
 <v>BLELab1\BLELab1\CortexM0\ARM_GCC_484\Debug\BLELab1.hex</v>
 <v>BLELab1\BLELab1\CortexM0\ARM_GCC_484\Debug\BLELab1.map</v>
@@ -141,23 +150,6 @@
 <VisibleNodeIds>
 <v>BLELab1</v>
 <v>BLELab1\BLELab1</v>
-<v>BLELab1\BLELab1\CortexM0</v>
-<v>BLELab1\BLELab1\CortexM0\ARM_GCC_484</v>
-<v>BLELab1\BLELab1\CortexM0\ARM_GCC_484\Debug</v>
-<v>BLELab1\BLELab1\CortexM0\ARM_GCC_484\Debug\Listing Files</v>
-<v>BLELab1\BLELab1\CortexM0\ARM_GCC_484\Debug\Listing Files\Cm0Start.lst</v>
-<v>BLELab1\BLELab1\CortexM0\ARM_GCC_484\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>BLELab1\BLELab1\CortexM0\ARM_GCC_484\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>BLELab1\BLELab1\CortexM0\ARM_GCC_484\Debug\Listing Files\CyFlash.lst</v>
-<v>BLELab1\BLELab1\CortexM0\ARM_GCC_484\Debug\Listing Files\CyLib.lst</v>
-<v>BLELab1\BLELab1\CortexM0\ARM_GCC_484\Debug\Listing Files\cymetadata.lst</v>
-<v>BLELab1\BLELab1\CortexM0\ARM_GCC_484\Debug\Listing Files\cyPm.lst</v>
-<v>BLELab1\BLELab1\CortexM0\ARM_GCC_484\Debug\Listing Files\cyutils.lst</v>
-<v>BLELab1\BLELab1\CortexM0\ARM_GCC_484\Debug\Listing Files\main.lst</v>
-<v>BLELab1\BLELab1\CortexM0\ARM_GCC_484\Debug\Listing Files\Pin_LED.lst</v>
-<v>BLELab1\BLELab1\CortexM0\ARM_GCC_484\Debug\BLELab1.elf</v>
-<v>BLELab1\BLELab1\CortexM0\ARM_GCC_484\Debug\BLELab1.hex</v>
-<v>BLELab1\BLELab1\CortexM0\ARM_GCC_484\Debug\BLELab1.map</v>
 <v>BLELab1\BLELab1\BLELab1.rpt</v>
 <v>BLELab1\BLELab1\BLELab1_timing.html</v>
 </VisibleNodeIds>

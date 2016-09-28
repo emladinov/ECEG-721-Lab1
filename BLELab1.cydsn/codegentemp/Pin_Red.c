@@ -1,5 +1,5 @@
 /*******************************************************************************
-* File Name: Pin_LED.c  
+* File Name: Pin_Red.c  
 * Version 2.10
 *
 * Description:
@@ -15,18 +15,18 @@
 *******************************************************************************/
 
 #include "cytypes.h"
-#include "Pin_LED.h"
+#include "Pin_Red.h"
 
 #define SetP4PinDriveMode(shift, mode)  \
     do { \
-        Pin_LED_PC =   (Pin_LED_PC & \
-                                (uint32)(~(uint32)(Pin_LED_DRIVE_MODE_IND_MASK << (Pin_LED_DRIVE_MODE_BITS * (shift))))) | \
-                                (uint32)((uint32)(mode) << (Pin_LED_DRIVE_MODE_BITS * (shift))); \
+        Pin_Red_PC =   (Pin_Red_PC & \
+                                (uint32)(~(uint32)(Pin_Red_DRIVE_MODE_IND_MASK << (Pin_Red_DRIVE_MODE_BITS * (shift))))) | \
+                                (uint32)((uint32)(mode) << (Pin_Red_DRIVE_MODE_BITS * (shift))); \
     } while (0)
 
 
 /*******************************************************************************
-* Function Name: Pin_LED_Write
+* Function Name: Pin_Red_Write
 ********************************************************************************
 *
 * Summary:
@@ -39,16 +39,16 @@
 *  None 
 *  
 *******************************************************************************/
-void Pin_LED_Write(uint8 value) 
+void Pin_Red_Write(uint8 value) 
 {
-    uint8 drVal = (uint8)(Pin_LED_DR & (uint8)(~Pin_LED_MASK));
-    drVal = (drVal | ((uint8)(value << Pin_LED_SHIFT) & Pin_LED_MASK));
-    Pin_LED_DR = (uint32)drVal;
+    uint8 drVal = (uint8)(Pin_Red_DR & (uint8)(~Pin_Red_MASK));
+    drVal = (drVal | ((uint8)(value << Pin_Red_SHIFT) & Pin_Red_MASK));
+    Pin_Red_DR = (uint32)drVal;
 }
 
 
 /*******************************************************************************
-* Function Name: Pin_LED_SetDriveMode
+* Function Name: Pin_Red_SetDriveMode
 ********************************************************************************
 *
 * Summary:
@@ -57,27 +57,27 @@ void Pin_LED_Write(uint8 value)
 * Parameters:  
 *  mode:  Change the pins to one of the following drive modes.
 *
-*  Pin_LED_DM_STRONG     Strong Drive 
-*  Pin_LED_DM_OD_HI      Open Drain, Drives High 
-*  Pin_LED_DM_OD_LO      Open Drain, Drives Low 
-*  Pin_LED_DM_RES_UP     Resistive Pull Up 
-*  Pin_LED_DM_RES_DWN    Resistive Pull Down 
-*  Pin_LED_DM_RES_UPDWN  Resistive Pull Up/Down 
-*  Pin_LED_DM_DIG_HIZ    High Impedance Digital 
-*  Pin_LED_DM_ALG_HIZ    High Impedance Analog 
+*  Pin_Red_DM_STRONG     Strong Drive 
+*  Pin_Red_DM_OD_HI      Open Drain, Drives High 
+*  Pin_Red_DM_OD_LO      Open Drain, Drives Low 
+*  Pin_Red_DM_RES_UP     Resistive Pull Up 
+*  Pin_Red_DM_RES_DWN    Resistive Pull Down 
+*  Pin_Red_DM_RES_UPDWN  Resistive Pull Up/Down 
+*  Pin_Red_DM_DIG_HIZ    High Impedance Digital 
+*  Pin_Red_DM_ALG_HIZ    High Impedance Analog 
 *
 * Return: 
 *  None
 *
 *******************************************************************************/
-void Pin_LED_SetDriveMode(uint8 mode) 
+void Pin_Red_SetDriveMode(uint8 mode) 
 {
-	SetP4PinDriveMode(Pin_LED__0__SHIFT, mode);
+	SetP4PinDriveMode(Pin_Red__0__SHIFT, mode);
 }
 
 
 /*******************************************************************************
-* Function Name: Pin_LED_Read
+* Function Name: Pin_Red_Read
 ********************************************************************************
 *
 * Summary:
@@ -91,17 +91,17 @@ void Pin_LED_SetDriveMode(uint8 mode)
 *  Returns the current value of the Digital Port as a right justified number
 *  
 * Note:
-*  Macro Pin_LED_ReadPS calls this function. 
+*  Macro Pin_Red_ReadPS calls this function. 
 *  
 *******************************************************************************/
-uint8 Pin_LED_Read(void) 
+uint8 Pin_Red_Read(void) 
 {
-    return (uint8)((Pin_LED_PS & Pin_LED_MASK) >> Pin_LED_SHIFT);
+    return (uint8)((Pin_Red_PS & Pin_Red_MASK) >> Pin_Red_SHIFT);
 }
 
 
 /*******************************************************************************
-* Function Name: Pin_LED_ReadDataReg
+* Function Name: Pin_Red_ReadDataReg
 ********************************************************************************
 *
 * Summary:
@@ -114,17 +114,17 @@ uint8 Pin_LED_Read(void)
 *  Returns the current value assigned to the Digital Port's data output register
 *  
 *******************************************************************************/
-uint8 Pin_LED_ReadDataReg(void) 
+uint8 Pin_Red_ReadDataReg(void) 
 {
-    return (uint8)((Pin_LED_DR & Pin_LED_MASK) >> Pin_LED_SHIFT);
+    return (uint8)((Pin_Red_DR & Pin_Red_MASK) >> Pin_Red_SHIFT);
 }
 
 
 /* If Interrupts Are Enabled for this Pins component */ 
-#if defined(Pin_LED_INTSTAT) 
+#if defined(Pin_Red_INTSTAT) 
 
     /*******************************************************************************
-    * Function Name: Pin_LED_ClearInterrupt
+    * Function Name: Pin_Red_ClearInterrupt
     ********************************************************************************
     *
     * Summary:
@@ -138,11 +138,11 @@ uint8 Pin_LED_ReadDataReg(void)
     *  Returns the value of the interrupt status register
     *  
     *******************************************************************************/
-    uint8 Pin_LED_ClearInterrupt(void) 
+    uint8 Pin_Red_ClearInterrupt(void) 
     {
-		uint8 maskedStatus = (uint8)(Pin_LED_INTSTAT & Pin_LED_MASK);
-		Pin_LED_INTSTAT = maskedStatus;
-        return maskedStatus >> Pin_LED_SHIFT;
+		uint8 maskedStatus = (uint8)(Pin_Red_INTSTAT & Pin_Red_MASK);
+		Pin_Red_INTSTAT = maskedStatus;
+        return maskedStatus >> Pin_Red_SHIFT;
     }
 
 #endif /* If Interrupts Are Enabled for this Pins component */ 
